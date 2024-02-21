@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+      .main{
+        margin: 100px;
+      }
+    .circle1:hover{
+        animation: zoom-out 4s;
+    }
+    .circle1{
+       
+        height: 200px;
+        width: 200px;
+        background-color: aqua;
+        border: 1px solid black;
+        border-radius: 50% ;
+        margin: 190px 300px;
+      }
+    @keyframes zoom-out{
+        0%{transform: scale(1);}
+        100%{transform: scale(0);}
+    }
+
+    .circle2:hover{
+        animation: zoom-out 4s;
+    }
+    .circle2{
+       
+        height: 200px;
+        width: 200px;
+        background-color: aqua;
+        border: 1px solid black;
+        border-radius: 50% ;
+        margin: -380px 600px;
+      }
+    @keyframes rotate{
+        0%{transform:scale(1);}
+        100%{transform: scale(0);}
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="circle1">
+            
+            </div>
+          
+        <div class="circle2">
+            
+        </div>
+    </div>
+       
+</body>
+</html>
